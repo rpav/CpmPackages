@@ -2,6 +2,7 @@ CPMAddPackage(
   NAME nanovg
   GIT_TAG master
   GITHUB_REPOSITORY memononen/nanovg
+  DOWNLOAD_ONLY TRUE
   )
 
 if(nanovg_ADDED)
